@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Examination FAQ Chatbot Using NLP</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- Google Fonts for clean typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-badge">NLP Practical Assignment &bull; Category: Examinations</div>
+            <h1 class="header-title">College Examination FAQ Chatbot</h1>
+            <p class="header-subtitle">
+                Ask questions about examinations, timetables, hall tickets, results, revaluation, and other examination-related topics.
+            </p>
+        </header>
+
+        <!-- Main Chat Card -->
+        <main class="chat-card">
+            <!-- Chat Card Header -->
+            <div class="chat-card-header">
+                <div class="bot-status-wrap">
+                    <span class="status-indicator"></span>
+                    <span class="status-text">Exam Assistance System (TF-IDF &bull; Cosine Similarity)</span>
+                </div>
+                <button type="button" id="clear-btn" class="btn-secondary" title="Clear conversation history">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6m3 0V4a2 2 0 012-2h4a2 2 0 012 2v2"></path></svg>
+                    Clear Chat
+                </button>
+            </div>
+
+            <!-- Suggested Question Pills -->
+            <div class="suggestions-wrapper">
+                <span class="suggestions-label">Suggested Questions:</span>
+                <div class="chips-container">
+                    <button class="chip" data-question="When are the semester exams?">When are the semester exams?</button>
+                    <button class="chip" data-question="How can I download my hall ticket?">How can I download my hall ticket?</button>
+                    <button class="chip" data-question="Where can I find the examination timetable?">Where can I find the examination timetable?</button>
+                    <button class="chip" data-question="How do I apply for revaluation?">How do I apply for revaluation?</button>
+                    <button class="chip" data-question="When will the exam results be published?">When will the exam results be published?</button>
+                </div>
+            </div>
+
+            <!-- Message Area -->
+            <div id="chat-messages" class="chat-messages" role="log" aria-live="polite">
+                <!-- Welcome Bot Message -->
+                <div class="message-row bot-row">
+                    <div class="avatar bot-avatar">EX</div>
+                    <div class="message-bubble bot-bubble">
+                        <p>Hello! I am the <strong>College Examination FAQ Chatbot</strong> powered by Natural Language Processing.</p>
+                        <p>You can ask me questions about examination dates, hall tickets, fees, attendance criteria, backlogs, grading, and revaluation.</p>
+                        <span class="msg-meta">System &bull; Ready</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Input Bar -->
+            <form id="chat-form" class="chat-input-bar">
+                <input 
+                    type="text" 
+                    id="user-input" 
+                    placeholder="Type your examination question here (e.g. When will results be declared?)..." 
+                    autocomplete="off" 
+                    required 
+                    aria-label="Your examination question"
+                >
+                <button type="submit" id="send-btn" class="btn-primary" aria-label="Send Message">
+                    <span>Send</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </button>
+            </form>
+        </main>
+
+        <!-- Technical Footer -->
+        <footer class="app-footer">
+            <div class="footer-content">
+                <span>College Practical Assignment &bull; Information Retrieval & NLP</span>
+                <span class="dot">&bull;</span>
+                <span>NLTK + scikit-learn (TF-IDF & Cosine Similarity)</span>
+                <span class="dot">&bull;</span>
+                <span>Threshold: 0.25</span>
+            </div>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

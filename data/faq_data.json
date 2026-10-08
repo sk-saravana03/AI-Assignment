@@ -1,0 +1,198 @@
+[
+  {
+    "id": 1,
+    "category": "Semester Examinations",
+    "question": "When are the semester exams?",
+    "answer": "The semester examination dates are published in the official academic calendar. Students can also check the student portal for the finalized examination schedule.",
+    "keywords": ["semester", "exam", "examinations", "date", "dates", "schedule", "when", "start", "begin"]
+  },
+  {
+    "id": 2,
+    "category": "Timetable",
+    "question": "Where can I find the examination timetable?",
+    "answer": "The examination timetable can be obtained from the college examination section or downloaded directly from the examination circulars tab on the student portal.",
+    "keywords": ["timetable", "schedule", "exam routine", "routine", "time table", "download", "find"]
+  },
+  {
+    "id": 3,
+    "category": "Hall Ticket",
+    "question": "How can I download my hall ticket?",
+    "answer": "Students can download their examination hall ticket / admit card from the student portal after clearing tuition dues and meeting the attendance criteria.",
+    "keywords": ["hall ticket", "admit card", "download", "hallticket", "entry pass", "exam pass"]
+  },
+  {
+    "id": 4,
+    "category": "Exam Registration",
+    "question": "How do I register for the semester examinations?",
+    "answer": "Students must complete the examination registration online via the college portal before the notified deadline by selecting eligible courses.",
+    "keywords": ["register", "registration", "exam application", "apply", "enroll", "enrollment"]
+  },
+  {
+    "id": 5,
+    "category": "Examination Fees",
+    "question": "What is the procedure for paying examination fees?",
+    "answer": "Examination fees must be paid online through the payment gateway on the student portal within the prescribed dates. Offline receipts can be submitted to the accounts counter if applicable.",
+    "keywords": ["fee", "fees", "payment", "exam fee", "pay", "charges", "cost"]
+  },
+  {
+    "id": 6,
+    "category": "Internal Examinations",
+    "question": "What are the rules regarding internal assessment examinations?",
+    "answer": "Internal examinations / mid-term assessments are conducted periodically per course curriculum, and attendance is mandatory as these marks contribute to the final grade.",
+    "keywords": ["internal", "internals", "midterm", "mid term", "continuous assessment", "cia", "unit test"]
+  },
+  {
+    "id": 7,
+    "category": "Attendance Requirement",
+    "question": "What is the minimum attendance requirement to appear for exams?",
+    "answer": "Students are required to maintain the minimum prescribed attendance percentage as outlined in the academic regulations to be eligible for semester examinations.",
+    "keywords": ["attendance", "minimum attendance", "shortage", "condonation", "percentage", "eligibility"]
+  },
+  {
+    "id": 8,
+    "category": "Registration Deadline",
+    "question": "What happens if I miss the exam registration deadline?",
+    "answer": "Students who miss the initial deadline may register with a prescribed late fee during the grace window, or submit a formal request to the examination section.",
+    "keywords": ["deadline", "late fee", "last date", "missed registration", "late submission", "due date"]
+  },
+  {
+    "id": 9,
+    "category": "Missed Examination",
+    "question": "What should I do if I miss an examination?",
+    "answer": "Students who miss an examination due to unforeseen circumstances must report to their head of department and the examination section immediately with valid written justification.",
+    "keywords": ["missed", "absent", "missed exam", "absence", "unable to attend", "skipped exam"]
+  },
+  {
+    "id": 10,
+    "category": "Medical Absence",
+    "question": "What is the procedure if I am absent on medical grounds?",
+    "answer": "If absent due to medical illness, students must submit a formal medical certificate and leave application endorsed by an authorized medical practitioner to the department within the specified days.",
+    "keywords": ["medical", "sick", "illness", "medical certificate", "hospital", "health issue", "doctor note"]
+  },
+  {
+    "id": 11,
+    "category": "Supplementary Examination",
+    "question": "When are supplementary examinations conducted?",
+    "answer": "Supplementary examinations are typically scheduled after the publication of regular semester results, as notified in the supplementary exam circular.",
+    "keywords": ["supplementary", "supply", "improvement", "special exam", "re exam", "reappear"]
+  },
+  {
+    "id": 12,
+    "category": "Arrears / Backlogs",
+    "question": "How do I apply for backlog or arrear examinations?",
+    "answer": "Students can apply for arrear/backlog papers during the regular examination registration window by choosing the pending course codes and paying the arrear exam fee.",
+    "keywords": ["backlog", "backlogs", "arrear", "arrears", "pending paper", "failed subject", "carryover"]
+  },
+  {
+    "id": 13,
+    "category": "Revaluation",
+    "question": "How do I apply for revaluation of exam papers?",
+    "answer": "Students can apply for revaluation / re-evaluation online via the student portal within the stipulated time frame following the declaration of results.",
+    "keywords": ["revaluation", "re evaluate", "reevaluation", "paper check", "re-eval", "challenge valuation"]
+  },
+  {
+    "id": 14,
+    "category": "Rechecking and Retotalling",
+    "question": "What is the difference between rechecking and retotalling?",
+    "answer": "Retotalling verifies the calculation and summation of marks on the answer booklet, whereas revaluation involves a fresh assessment of your answers by an evaluator.",
+    "keywords": ["rechecking", "retotalling", "re totalling", "re totaling", "recounting", "marks recount"]
+  },
+  {
+    "id": 15,
+    "category": "Results",
+    "question": "When will the semester exam results be published?",
+    "answer": "Semester examination results are declared on the official college website and student portal after evaluation and moderation, per the academic calendar timeline.",
+    "keywords": ["result", "results", "publish", "announced", "outcome", "grade sheet", "marks announced"]
+  },
+  {
+    "id": 16,
+    "category": "Grade Information",
+    "question": "How is GPA or CGPA calculated from exam grades?",
+    "answer": "Grade points and cumulative grade point average (CGPA) are computed based on the credit weightage of each course per the institutional grading scale.",
+    "keywords": ["gpa", "cgpa", "grade", "grades", "percentage conversion", "grading system", "marksheet"]
+  },
+  {
+    "id": 17,
+    "category": "Exam Hall Rules",
+    "question": "What are the rules and guidelines inside the exam hall?",
+    "answer": "Candidates must arrive 15 minutes before commencement, carry their valid hall ticket and college ID, and occupy their assigned seat strictly.",
+    "keywords": ["hall rules", "exam hall rules", "guidelines", "regulations", "discipline", "do and don't", "entering hall"]
+  },
+  {
+    "id": 18,
+    "category": "Required Materials",
+    "question": "What materials and items are allowed inside the examination hall?",
+    "answer": "Students may carry approved stationery, non-programmable calculators (if permitted for the course), valid hall tickets, and student ID cards. Bags and electronic devices are strictly prohibited.",
+    "keywords": ["materials", "items allowed", "calculator", "pen", "stationery", "permitted", "allowed in exam"]
+  },
+  {
+    "id": 19,
+    "category": "Malpractice",
+    "question": "What happens if a student is caught engaging in examination malpractice?",
+    "answer": "Any form of cheating, possession of unauthorized material, or electronic gadgets will be referred to the Examination Disciplinary Committee for strict disciplinary action.",
+    "keywords": ["malpractice", "cheating", "unfair means", "copying", "disciplinary action", "misconduct"]
+  },
+  {
+    "id": 20,
+    "category": "Exam Seating",
+    "question": "How can I check my exam seating arrangement and room number?",
+    "answer": "Seating plans and assigned room numbers are displayed on the examination notice boards and published on the college portal prior to the start of each session.",
+    "keywords": ["seating", "seat", "room number", "bench", "hall arrangement", "seating arrangement", "allotment"]
+  },
+  {
+    "id": 21,
+    "category": "Contact Examination Section",
+    "question": "How can I contact the college examination section?",
+    "answer": "Students can visit the examination branch during official office hours or reach out via the official examination helpdesk email provided in the college contact directory.",
+    "keywords": ["contact", "examination section", "exam cell", "controller of examinations", "coe", "helpdesk", "office"]
+  },
+  {
+    "id": 22,
+    "category": "Practical Examinations",
+    "question": "When and how are practical laboratory examinations conducted?",
+    "answer": "Practical examinations and lab assessments are conducted prior to theory examinations in departmental laboratories according to batch-wise schedules.",
+    "keywords": ["practical", "lab exam", "laboratory", "practical exams", "experiment", "lab test"]
+  },
+  {
+    "id": 23,
+    "category": "Viva Examination",
+    "question": "What should I prepare for the project viva voce examination?",
+    "answer": "For viva voce and project presentations, students must bring their approved project report, presentation slides, and relevant project deliverables as instructed by their guides.",
+    "keywords": ["viva", "viva voce", "project presentation", "oral exam", "defense", "project viva"]
+  },
+  {
+    "id": 24,
+    "category": "Academic Calendar",
+    "question": "Where can I view the college academic calendar?",
+    "answer": "The official academic calendar containing commencement of classes, internal exam dates, and semester exams is published on the college website under the academic section.",
+    "keywords": ["academic calendar", "calendar", "term dates", "semester schedule", "almanac", "session dates"]
+  },
+  {
+    "id": 25,
+    "category": "Duplicate Hall Ticket",
+    "question": "How can I get a duplicate hall ticket if I lose mine?",
+    "answer": "If you lose your hall ticket, you can reprint it directly from the student portal or obtain an attested duplicate copy from the examination cell after identity verification.",
+    "keywords": ["lost hall ticket", "duplicate hall ticket", "misplaced admit card", "reprint hall ticket", "lost admit card"]
+  },
+  {
+    "id": 26,
+    "category": "Provisional Certificate",
+    "question": "How do I apply for a provisional certificate or consolidated marksheet?",
+    "answer": "Final year students who have cleared all semester exams can apply for their provisional degree certificate and consolidated marks statement through the examination records counter.",
+    "keywords": ["provisional certificate", "consolidated marksheet", "transcript", "degree certificate", "passing certificate"]
+  },
+  {
+    "id": 27,
+    "category": "Exam Timing",
+    "question": "What are the standard examination timings and session durations?",
+    "answer": "Examinations are typically organized in morning and afternoon sessions as indicated on your specific timetable and hall ticket.",
+    "keywords": ["timing", "exam timing", "duration", "hours", "morning session", "afternoon session", "time"]
+  },
+  {
+    "id": 28,
+    "category": "Dress Code",
+    "question": "Is there a specific dress code or uniform for attending examinations?",
+    "answer": "Students must follow the college uniform policy or wear formal decent attire along with their visible college identity card while entering the examination center.",
+    "keywords": ["dress code", "uniform", "attire", "clothing", "id card wearing"]
+  }
+]
